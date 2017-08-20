@@ -13,7 +13,7 @@ topics = Topic.all
     Post.create!(
         topic: topics.sample,
         title: RandomData.random_sentence,
-        body:  RandomData.random_sentence
+        body:  RandomData.random_paragraph
     )
 end
 posts = Post.all
